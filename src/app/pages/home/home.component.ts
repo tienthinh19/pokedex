@@ -28,7 +28,8 @@ export class HomeComponent {
   $pokemonDetail = this.store.select((state) => state.pokemon.detailPokemon);
   Pokemon: PokemonModel = {
     name: '',
-    image: '',
+    weight: 0,
+    height: 0,
     order: 0,
     sprites: {
       back_default:''

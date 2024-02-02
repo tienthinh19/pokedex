@@ -17,7 +17,8 @@ export const initializState: PokemonState = {
 
     name: '',
 
-    image: '',
+    weight: 0,
+    height: 0,
     order: 0,
     sprites: {
       back_default: ''

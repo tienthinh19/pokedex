@@ -24,7 +24,7 @@
         <div id="buttontopPicture2"></div>
       </div>
       <div id="picture">
-        <img [src]="pokemons.image" />
+        <img [src]="pokemons.sprites.back_default" />
       </div>
       <div id="buttonbottomPicture"></div>
       <div id="speakers">
@@ -58,8 +58,9 @@
   <div id="right">
     <div id="stats">
       <strong>Name:</strong> {{ pokemons.name }}<br />
-      <strong>Sprites:</strong> {{ pokemon.sprites }}<br />
-      <strong>Order:</strong> {{ pokemon.order }}<br />
+      <strong>Weight:</strong> {{ pokemons.weight }}<br />
+      <strong>Order:</strong> {{ pokemons.order }}<br />
+        <strong>Height:</strong> {{ pokemons.height }}<br />
       Uses mysterious powers to perform various attacks.
 
     </div>
